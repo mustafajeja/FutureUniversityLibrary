@@ -1,9 +1,21 @@
- body.red.lighten-5 {
-     display: flex;
-     min-height: 100vh;
-     flex-direction: column;
- }
+body.red.lighten-5 {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
 
- main {
-     flex: 1 0 auto;
- }
+main {
+    flex: 1 0 auto;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #da5252;
+}
+
+html::-webkit-scrollbar-track {
+    background: rgba(255, 235, 238, 0)
+}
