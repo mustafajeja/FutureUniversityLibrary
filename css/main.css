@@ -57,3 +57,18 @@ ul.regulation-list li {
 ul.contact li {
     font-size: 1.2rem;
 }
+
+ul.countdown li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 0.5em;
+    text-transform: uppercase;
+    border: 5px solid #000;
+    width: 170px;
+}
+
+ul.countdown li span {
+    display: block;
+    font-size: 4.5rem;
+}
