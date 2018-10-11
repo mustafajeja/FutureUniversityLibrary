@@ -22,3 +22,8 @@ function autoplay() {
 $(document).ready(function () {
     $('.materialboxed').materialbox();
 });
+
+// Initializes Tooltips
+$(document).ready(function () {
+    $('.tooltipped').tooltip();
+});
