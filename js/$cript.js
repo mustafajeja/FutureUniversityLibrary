@@ -3,7 +3,7 @@ $(document).ready(function () {
     $('.sidenav').sidenav();
 });
 
-//   Jquery Initialization
+//   Carousel Initialization
 $('.carousel.carousel-slider').carousel({
     fullWidth: true,
     duration: 200,
@@ -17,3 +17,8 @@ function autoplay() {
     $('.carousel').carousel('next');
     setTimeout(autoplay, 4500);
 }
+
+// Material Box initialization (Overview.html image box)
+$(document).ready(function () {
+    $('.materialboxed').materialbox();
+});
