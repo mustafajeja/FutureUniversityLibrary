@@ -19,3 +19,11 @@ html::-webkit-scrollbar-thumb {
 html::-webkit-scrollbar-track {
     background: rgba(255, 235, 238, 0)
 }
+
+.carousel-item img {
+    height: 500px !important;
+}
+
+.carousel.carousel-slider {
+    height: 500px;
+}
