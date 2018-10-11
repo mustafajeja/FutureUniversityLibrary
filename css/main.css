@@ -27,3 +27,19 @@ html::-webkit-scrollbar-track {
 .carousel.carousel-slider {
     height: 500px;
 }
+
+.hanan-color {
+    background-color: #ee6e73 !important;
+}
+
+.hanan-text {
+    color: #ee6e73 !important;
+}
+
+.small-text {
+    font-size: 1.2rem !important;
+}
+
+.bigger-text {
+    font-size: 1.2rem !important;
+}
