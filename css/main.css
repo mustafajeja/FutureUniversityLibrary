@@ -43,3 +43,17 @@ html::-webkit-scrollbar-track {
 .bigger-text {
     font-size: 1.2rem !important;
 }
+
+ul.staff-card li {
+    height: 25px;
+    line-height: 25px;
+    /* font-size: 24px; */
+}
+
+ul.regulation-list li {
+    font-size: 18px;
+}
+
+ul.contact li {
+    font-size: 1.2rem;
+}
