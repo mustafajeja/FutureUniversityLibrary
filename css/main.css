@@ -63,12 +63,15 @@ ul.countdown li {
     font-size: 1.5em;
     list-style-type: none;
     padding: 0.5em;
+    margin: 1rem;
     text-transform: uppercase;
-    border: 5px solid #000;
+    border: 5px solid #da5252;
     width: 170px;
+    border-radius: 22px;
 }
 
 ul.countdown li span {
+    text-shadow: 0px 0px 3px #000000;
     display: block;
-    font-size: 4.5rem;
+    font-size: 5rem;
 }
