@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
 body.red.lighten-5 {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    font-family: 'Cairo', sans-serif;
 }
 
 main {
@@ -75,3 +77,65 @@ ul.countdown li span {
     display: block;
     font-size: 5rem;
 }
+
+
+.unilogo {
+    width: 20px;
+    height: 40px;
+    margin: 12px 5px 12px 0;
+}
+
+@media only screen and (min-width: 993px) {
+    .hide-on-large {
+        visibility: hidden !important;
+    }
+    
+}
+
+@media only screen and (max-width: 993px) {
+    .show-on-large2 {
+        visibility: hidden !important;
+    }
+        .carousel-item img {
+            height: 200px !important;
+        }
+
+        .carousel.carousel-slider {
+            height: 200px;
+        }
+
+}
+
+ @media only screen and (max-width: 680px) {
+     nav .brand-logo {
+         font-size: 16px !important;
+     }
+
+     .unilogo {
+         width: 20px;
+         height: 40px;
+         margin: 8px 5px 12px 0;
+     }
+ }
+
+ @media only screen and (max-width: 375px) {
+     nav .brand-logo {
+         font-size: 12.6px !important
+     }
+
+     .unilogo {
+         width: 20px;
+         height: 40px;
+         margin: 8px 5px 12px 0;
+     }
+ }
+
+ @media only screen and (max-width: 425px) {
+     .unilogo {
+         width: 20px;
+         height: 40px;
+         margin: 8px 5px 12px 0;
+     }
+
+     
+ }
