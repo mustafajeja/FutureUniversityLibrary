@@ -1,0 +1,144 @@
+ @font-face {
+     font-family: Cairo;
+     src: url('../font/Cairo-Regular.ttf');
+ }
+body.red.lighten-5 {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Cairo', sans-serif;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #da5252;
+}
+
+html::-webkit-scrollbar-track {
+    background: rgba(255, 235, 238, 0)
+}
+
+.carousel-item img {
+    height: 500px !important;
+}
+
+.carousel.carousel-slider {
+    height: 500px;
+}
+
+.hanan-color {
+    background-color: #ee6e73 !important;
+}
+
+.hanan-text {
+    color: #ee6e73 !important;
+}
+
+.small-text {
+    font-size: 1.2rem !important;
+}
+
+.bigger-text {
+    font-size: 1.2rem !important;
+}
+
+ul.staff-card li {
+    height: 25px;
+    line-height: 25px;
+    /* font-size: 24px; */
+}
+
+ul.regulation-list li {
+    font-size: 18px;
+}
+
+ul.contact li {
+    font-size: 1.2rem;
+}
+
+ul.countdown li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 0.5em;
+    margin: 1rem;
+    text-transform: uppercase;
+    border: 5px solid #da5252;
+    width: 170px;
+    border-radius: 22px;
+}
+
+ul.countdown li span {
+    text-shadow: 0px 0px 3px #000000;
+    display: block;
+    font-size: 5rem;
+}
+
+
+.unilogo {
+    width: 20px;
+    height: 40px;
+    margin: 12px 5px 12px 0;
+}
+
+@media only screen and (min-width: 993px) {
+    .hide-on-large {
+        visibility: hidden !important;
+    }
+    
+}
+
+@media only screen and (max-width: 993px) {
+    .show-on-large2 {
+        visibility: hidden !important;
+    }
+        .carousel-item img {
+            height: 200px !important;
+        }
+
+        .carousel.carousel-slider {
+            height: 200px;
+        }
+
+}
+
+ @media only screen and (max-width: 680px) {
+     nav .brand-logo {
+         font-size: 16px !important;
+     }
+
+     .unilogo {
+         width: 20px;
+         height: 40px;
+         margin: 8px 5px 12px 0;
+     }
+ }
+
+ @media only screen and (max-width: 375px) {
+     nav .brand-logo {
+         font-size: 12.6px !important
+     }
+
+     .unilogo {
+         width: 20px;
+         height: 40px;
+         margin: 8px 5px 12px 0;
+     }
+ }
+
+ @media only screen and (max-width: 425px) {
+     .unilogo {
+         width: 20px;
+         height: 40px;
+         margin: 8px 5px 12px 0;
+     }
+
+     
+ }
