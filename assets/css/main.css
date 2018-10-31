@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Cairo');
+ @font-face {
+     font-family: Cairo;
+     src: url('../font/Cairo-Regular.ttf');
+ }
 body.red.lighten-5 {
     display: flex;
     min-height: 100vh;
